@@ -1,0 +1,18 @@
+﻿
+$(document).on("pageload", function () { 
+    var imageNames = new Array("baboon","bear","buffalo","cat","chamelion","cheetah","chicken","deer","dog","donkey","dove","duck","eagle","elephant","fox","frog","giraffe","hampster","horse","kangaroo","lion","lizad","monkey","owl","panda","peacock","penguin","rhinocerous","rooster","sealion","shark","snake","squirrel","swann","tiger");
+    var randImage1 = Math.floor(Math.random() * imageNames.length );
+    var randImage2 = Math.floor(Math.random() * imageNames.length );
+    var randImage3 = Math.floor(Math.random() * imageNames.length );
+    var randImage4 = Math.floor(Math.random() * imageNames.length );
+
+    var randImageTile1 = "../images/" + imageNames[randImage1] + ".jpg";
+    var randImageTile2 = "../images/" + imageNames[randImage2] + ".jpg";
+    var randImageTile3 = "../images/" + imageNames[randImage3] + ".jpg";
+    var randImageTile4 = "../images/" + imageNames[randImage4] + ".jpg";
+
+    $('#FirstImage').attr("src", randImageTile1);
+    $('#SecondImage').attr("src", randImageTile2);
+    $('#ThirdImage').attr("src", randImageTile3);
+    $('#FourImage').attr("src", randImageTile4);
+    }); 

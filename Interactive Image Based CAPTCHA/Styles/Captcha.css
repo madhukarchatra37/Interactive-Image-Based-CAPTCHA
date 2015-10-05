@@ -1,0 +1,55 @@
+﻿body {
+}
+
+.imgClass 
+{
+    width : 150px;
+}
+
+.imagecaptions
+{
+    text-align:center;
+    margin : 10px;
+    caption-side :top;
+    color : Black;
+  
+}
+.captchaQuestion1
+{
+    margin: 10px; 
+    float : left;   
+}
+.captchaQuestion2
+{
+    margin: 10px; 
+    float : right;   
+}
+.captchaQuestion3
+{
+    margin: 10px; 
+}
+.captchaQuestion4
+{
+    margin: 10px;   
+}
+
+.alignleft 
+{
+   color : Black;
+   display:inline !important;
+   float:left !important;
+   margin:60px 30px 15px 0 !important;
+}
+
+.alignright 
+{
+   color : Black;
+   display:inline !important;
+   float:right !important;
+   margin:60px 0px 15px 30px !important;
+}
+
+.CaptchaAnswerArea
+{
+    font-size : 1.2em;
+} 
